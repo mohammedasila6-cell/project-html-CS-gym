@@ -1,0 +1,35 @@
+body{
+   background-color: white;
+   color: black;
+   padding: 40px 20px;
+}
+
+.container{
+    width: 50%;
+    margin: 10;
+}
+
+.hero-image img{
+    width: 300px;
+   
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.start{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.learn{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
