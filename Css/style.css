@@ -5,21 +5,45 @@ body{
 }
 
 .container{
-    width: 50%;
-    margin: 10;
+    width: 700px;
+    margin: auto;
 }
 
-.hero-image img{
-    width: 300px;
+.hero{
+    padding: 30px 0px 60px;
+    display: inline;
+}
+
+.hero-contant{
+    align-items: center;
+    display: flex;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero h1{
+    font-size: 32px;
+    margin-bottom: 15xp;
+}
+
+.hero p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.hero img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
    
 }
 
 .button{
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 10px;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
 }
 
 .start{
@@ -32,4 +56,141 @@ body{
     padding: 10px 20px;
     background-color: white;
     color: black;
+}
+
+
+<!-- Why Choose-->
+
+.Why-Choose-us{
+    padding: 40px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    font-size: 30px;
+}
+
+.title p{
+    color: gray;
+}
+
+.benefit-card{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.card{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card p{
+    color: gray;
+}
+
+
+
+<!-- More Benefits-->
+
+.more-benefit{
+    display: flex;
+    margin-top: 20px;
+}
+
+image{
+    width: 50%;
+}
+
+image img{
+    width: 100%;
+}
+
+.content{
+    width: 50%;
+    padding: 20px;
+}
+
+
+.content p{
+    color: gray;
+}
+
+
+
+
+
+
+.testimonials{
+    padding: 40px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-size: 30px;
+}
+
+.title p{
+    color: gray;
+}
+
+.reviews{
+    display: flex;
+    padding: 20px;
+}
+
+.card{
+    width: 30%;
+    padding: 15px;
+}
+
+.card-header{
+    display: flex;
+
+}
+
+.auther-image img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+.auther-info h3{
+    margin: 5px;
+    color:black;
+}
+
+.auther-info p{
+    margin: 5px;
+    color: gray;
+}
+
+.card-body{
+    margin-top: 20px;
+}
+
+.statisttics{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    justify-content: space-around;
+
 }
